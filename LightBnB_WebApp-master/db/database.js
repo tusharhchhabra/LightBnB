@@ -212,7 +212,6 @@ const addProperty = function(property) {
       ]
     )
     .then(response => {
-      console.log(response.rows[0]);
       return response.rows;
     })
     .catch(err => {
